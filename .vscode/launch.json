@@ -24,7 +24,12 @@
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
             },
-            "justMyCode": false
+            "justMyCode": false,
+            "symbolOptions": {
+                "searchPaths": [],
+                "searchMicrosoftSymbolServer": true,
+                "searchNuGetOrgSymbolServer": true
+            }
         },
         {
             "name": ".NET Core Attach",
